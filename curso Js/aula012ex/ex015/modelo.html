@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de idade</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificação de idade</h1>
+    </header>
+    <section>
+        <div>
+            <form action="">
+                <p>
+                    <label for="iano">Ano de nascimento</label>
+                    <input type="number" name="ano" id="iano">
+                </p>
+                <p>
+                    Sexo:
+                    
+                    <input type="radio" name="Sexo" id="isex">
+                    <label name="Sexo" value="masc" for="isex">Masculino</label>
+
+                    <input type="radio" name="Sexo" id="isex">
+                    <label name="Sexo" value="fem" for="isex">Feminino</label>
+                </p>
+                <p>
+                    <input type="button" value="Verificar" onclick="verificar()">
+                </p>
+            </form>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Mikael Antony</p>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
