@@ -4,6 +4,20 @@ evencli.addEventListener('click', conta)
 var res = window.document.getElementById('res')
 
 function conta() {
+     let alert = window.alert 
+     let ini = document.getElementById('iinicio') 
+     let fim = document.getElementById('ifim')
+     let pas = document.getElementById('ipasso')
+
+     if (pas > 0 ) {
+          window.alert = 'Passo invalido! Considerando PASSO = 1'
+          pas.value = 1
+     }
+
+}
+
+/*
+function conta() {
 
      //Variavels
      
@@ -21,7 +35,7 @@ function conta() {
 
      //checagem de erros no inicio ou fim
 
-     if (!iniv && !ifimv) {
+     if (ini.value.length == 0 && ifim.value.length == 0) {
           infi = 3
      } else if (iniv && !ifimv) {
           infi = 2
@@ -71,5 +85,5 @@ function conta() {
           }
           res.innerHTML += `&#x1F3C1;`
      }
-
 }
+*/
