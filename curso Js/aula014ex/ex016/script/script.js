@@ -4,16 +4,33 @@ evencli.addEventListener('click', conta)
 var res = window.document.getElementById('res')
 
 function conta() {
-     let alert = window.alert 
-     let ini = document.getElementById('iinicio') 
+     let ini = document.getElementById('iinicio')
      let fim = document.getElementById('ifim')
      let pas = document.getElementById('ipasso')
 
-     if (pas > 0 ) {
-          window.alert = 'Passo invalido! Considerando PASSO = 1'
-          pas.value = 1
-     }
+     if (ini.value.length == 0 || fim.value.length == 0 || pas.value.length == 0) {
+          res.innerHTML = 'Impossivel contar!'
+     } else {
+          res.innerHTML = 'Contando: <br>'
+          let i = Number(ini.value)
+          let f = Number(fim.value)
+          let p = Number(pas.value)
+          if (p <= 0) {
+               window.alert('Passo invalido! Considerando PASSO = 1')
+               p = 1
+          }
 
+          if (i < f) {
+               for (let c = i; c <= f; c += p) {
+                    res.innerHTML += `${c}&#x1F449;`
+               }
+          } else {
+               for (let c = i; c >= f; c -= p) {
+                    res.innerHTML += `${c}&#x1F449` 
+               }
+          }
+          res.innerHTML += '&#x1F3C1;'
+     }
 }
 
 /*
