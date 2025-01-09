@@ -4,6 +4,6 @@ var lines = input.split('\n');
 var raio = parseFloat(lines.shift())
 n = 3.14159
 
-area = n*raio**2
+area = n * raio ** 2
 
-console.log(`A=${area}`)
+console.log(`A=${area.toFixed(4)}`)
