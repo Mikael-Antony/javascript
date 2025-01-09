@@ -29,3 +29,10 @@ footer {
 footer > p {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
 }
+
+select {
+    width: 150px;
+}
+input#fin {
+    display: block;
+}
