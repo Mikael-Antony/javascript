@@ -7,9 +7,9 @@ console.log(soma(10, 10))
 
 
 //funçao de cotaçao
-function realParaDolar(real,cotDolar) {
+function realParaDolar(real, cotDolar) {
     return real * cotDolar
-}
+} 
 
 var real = 7.89;
 var cotacao = 5.08;

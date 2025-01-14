@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Js</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo JavaScript</h1>
+    <h2>Eventos Javascript</h2>
+    <p id="texto"></p>
+
+    <button onclick="eventoClick()" ondblclick="eventoDblclick()">Clique aqui</button>
+    
+    <select id="items">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+        <option value="4">Valor 4</option>
+    </select>
+    
+    <div id="teste" onmouseover="viraVermelho()" onmouseout="viraAzul()" style="width: 80vw; height: 200px; background-color: blue; margin: auto;"></div>
+
+    <input onkeyup="teclaPressionada()" onchange="(mudou())" onfocus="limpaTexto()" id="campoTexto" type="text" style="padding: 10px; font-size: 40px;" placeholder="Digite algo">
+    
+    <script src="script/index.js">
+    </script>
+</body>
+</html>
