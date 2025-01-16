@@ -49,4 +49,24 @@ console.log(`${hora}:${minutos}:${segundos}`);
 let dataBR = data.toLocaleDateString('pt-br')
 console.log(dataBR);
 
+//comparar datas
+let datac = new Date();
+let vencimento = new Date(2025, 0, 18);
+
+if (datac <= vencimento) {
+    console.log('n ta vencido :(');
+} else {
+    console.log('Ta vencido!!');
+}
+
+//diferença entre datas 
+
+let dataInicial = new Date();
+let dataFinal = new Date(2025, 11, 31);
+
+let diferencaTempo = dataFinal.getTime() - dataInicial.getTime();
+
+let diferencaDias = Math.ceil(diferencaTempo / (24*60*60*1000));
+
+console.log(`${diferencaDias} dias e ${diferencaTempo} milisegndos`);
 
