@@ -1,6 +1,8 @@
-import HellorWorld from './components/helloWorld';
+//import HellorWorld from './components/helloWorld';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/frase';
+import List from './components/list';
 import './App.css';
 
 function App() {
@@ -9,13 +11,17 @@ function App() {
   
   return (
     <div className="App">
+      <h1>testando css</h1>
+      <Frase />
+      <Frase />
       <SayMyName nome={nome} />
       <Pessoa
-        foto='https://yt3.ggpht.com/2VojoWLHU5NqXtK2CImSSPgd1G4mckeB04BXKNqttRCuqRnq8_7EF-s6cw1Hpu17FB3KgnivYA=s88-c-k-c0x00ffffff-no-rj'
+        foto='https://placehold.co/150'
         nome={nome}
         idade='18'
         profissao='estudante'
       />
+      <List />
     </div>
   );
 }
