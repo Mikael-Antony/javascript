@@ -1,0 +1,10 @@
+.list {
+    display: flex;
+    list-style: none;
+}
+ul {
+  background-color: #aaa;
+}
+.item {
+    margin-right: 10px;
+}

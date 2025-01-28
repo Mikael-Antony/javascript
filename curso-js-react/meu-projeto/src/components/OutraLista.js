@@ -2,14 +2,15 @@ function OutraLista({ itens }) {
     return (
         <>
             <h3>Lista de coisas boas:</h3>
-            {itens.length > 0 ? (
+            <ol>{itens.length > 0 ? (
                 itens.map((item, index) => (
-                <p key={index}>{item}</p>
+                <li key={index}>{item}</li>
             ))) : (
-                <p>Não há itens na lista</p>
-            )}
+                <>Não há itens na lista</>
+            )}</ol>
+            
         </>
     )
 }
 
-export default OutraLista
+export default OutraLista  
