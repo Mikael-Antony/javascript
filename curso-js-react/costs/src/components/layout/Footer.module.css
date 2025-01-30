@@ -1,0 +1,31 @@
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 3em;
+    text-align: center;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+footer > ul > li {
+    height: 35px;
+    vertical-align: top;
+    font-size: 1.5em;
+    margin: 0 1em;
+    transition: font-size .5s;
+}
+footer > ul > li:hover {
+    color: #ffbb33;
+    font-size: 2em;
+    cursor: pointer;
+    transition: color 1s, font-size .5s;
+}
+footer > p:hover {
+    cursor: default;
+}
+span {
+    color: #ffbb33;
+}
