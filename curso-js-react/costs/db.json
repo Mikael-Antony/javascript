@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "id": "702f",
+      "name": "teste",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desnvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "8397",
+      "name": "fbdfdg",
+      "budget": "499",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desnvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}

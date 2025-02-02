@@ -8,13 +8,13 @@ import logo from '../../img/costs_logo.png'
 function NavBar() {
 
     return (
-        <nav class={styles.navBar} >
+        <nav className={styles.navBar} >
           <Container>
                 <Link to='/'>
                     <img src={logo} alt='costs' />
                 </Link>
 
-                <ul class={styles.list} >
+                <ul className={styles.list} >
                     <li>
                         <Link to='/'>Home</Link>
                     </li>

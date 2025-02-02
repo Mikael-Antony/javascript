@@ -1,5 +1,12 @@
+import Message from "../layout/Message"
+
 function Projects() {
-    return <h1>Project</h1>
+    return (
+        <div>
+            <h1>Meus Projetos</h1>
+            <Message msg='alguma mensagem' />
+        </div>
+    )
 }
 
 export default Projects
