@@ -1,3 +1,10 @@
+.btncon {
+    display: flex;
+    align-items: center;
+    height: 50px;
+
+}
+
 .btn {
     background-color: #222;
     color: #fff;
