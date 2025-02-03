@@ -1,0 +1,79 @@
+.project_details {
+    padding: 2em;
+    width: 100%;
+    cursor: default;
+}
+
+.project_details h1,
+.project_details h2,
+.project_details p {
+    margin-bottom: .5em;
+}
+
+.project_details h1 {
+    background-color: #222;
+    color: #ffbb33;
+    padding: .4em .6em;
+    border-radius: 20px 20px 2px 20px;
+}
+
+.project_details span {
+    font-weight: bold;
+    color: black;
+}
+
+.project_details p {
+    width: 270px;
+    height: 1.2em;
+    transition: .5s ease-in-out;
+}
+.cont_p {
+    border-left: 1px solid #999;
+    padding: .5em;
+    height: 100px;
+    width: 100%;
+    margin-left: 50px;
+}
+.cont_d_p {
+    width: 100%;
+}
+
+.project_details p:hover {
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+.details_container, .service_form_container {
+    border-bottom: 1px solid #7a7a7a;
+    margin-bottom: 1.2em;
+    padding-bottom: 1.2em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btncon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #222;
+    color: #fff;
+    padding: .5em 1em;
+    text-decoration: none;
+    transition: .5s ease-out;
+
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.btn:hover {
+    font-size: 1em;
+    color: #ffbb33;
+}
