@@ -9,8 +9,6 @@
 
     transition: 1s;
 }
-.project_card:hover {
-}
 
 .project_card > h3, .project_card > h4 {
     background-color: #222;
