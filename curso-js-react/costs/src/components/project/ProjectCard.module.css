@@ -2,16 +2,17 @@
     padding: 1em;
     border: 1px solid #7a7a7a;
     border-radius: 10px;
-    width: 24%;
-    min-width: 240px;
+    min-width: 24%;
     margin: .5%;
 
-    flex: 0 0 none;
+    flex: 1 0 auto;
 
     transition: 1s;
 }
+.project_card:hover {
+}
 
-.project_card>h3 {
+.project_card > h3, .project_card > h4 {
     background-color: #222;
     color: #ffbb33;
     padding: .4em;
@@ -22,7 +23,7 @@
     text-align: center;
 }
 
-.project_card>p {
+.project_card > p {
     color: #7a7a7a;
     margin-bottom: 1em;
 }

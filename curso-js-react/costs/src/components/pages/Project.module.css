@@ -23,7 +23,7 @@
 }
 
 .project_details p {
-    width: 270px;
+    width: 280px;
     height: 1.2em;
     transition: .5s ease-in-out;
 }
@@ -38,7 +38,7 @@
     width: 100%;
 }
 
-.project_details p:hover {
+.project_details .cont_p > p:hover {
     font-size: 1.2em;
     text-decoration: underline;
 }

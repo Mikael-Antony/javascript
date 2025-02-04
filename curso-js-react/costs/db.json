@@ -1,5 +1,115 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "id": "9445",
+      "name": "teste",
+      "budget": "1000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "52ca",
+      "name": "teste 1",
+      "budget": "2000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "d8a4",
+      "name": "teste 2",
+      "budget": "90000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 300,
+      "services": [
+        {
+          "name": "serviço ",
+          "cost": "100",
+          "Description": "faz isso aqui",
+          "id": "323149b5-3b14-4cfe-b14c-e90d7aeeb311"
+        },
+        {
+          "name": "serviço 2",
+          "cost": "200",
+          "Description": "faz isso aqui",
+          "id": "d9ac5458-ec05-4f1b-a40d-82eb680917d4"
+        }
+      ]
+    },
+    {
+      "id": "3cff",
+      "name": "teste 3",
+      "budget": "3000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "af6c",
+      "name": "teste 6",
+      "budget": "6600",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "0cb3",
+      "name": "meu novo serviço",
+      "budget": "7000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "dfbb",
+      "name": "jogo ",
+      "budget": "15000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 11000,
+      "services": [
+        {
+          "name": "design",
+          "cost": "1000",
+          "Description": "hyvkgvuhvhvbkhb",
+          "id": "baf65d04-9948-4aec-8191-3089664dd89a"
+        },
+        {
+          "cost": "9000",
+          "name": "serviço ",
+          "Description": "8ygi9y7g",
+          "id": "59836220-ae65-4020-98de-f26cf24a6ebc"
+        },
+        {
+          "name": "serviço ",
+          "cost": "1000",
+          "Description": "huhyi",
+          "id": "5c47af24-e1eb-434f-af3f-bc3f074d211b"
+        }
+      ]
+    }
+  ],
   "categories": [
     {
       "id": "1",
