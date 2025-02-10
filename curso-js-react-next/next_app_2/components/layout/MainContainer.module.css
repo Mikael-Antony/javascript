@@ -1,0 +1,9 @@
+.MainContainer {
+    min-height: 90vh;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    margin: 20px 0;
+}

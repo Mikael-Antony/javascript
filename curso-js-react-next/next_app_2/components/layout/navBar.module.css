@@ -1,0 +1,35 @@
+.nav_container {
+    background-color: #222;
+    height: 10vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #222 url('/vercel.svg') no-repeat center;
+    background-size: contain;
+}
+
+.nav_container > ul {
+    list-style: none;
+    list-style-position: inside;
+
+    display: flex;
+}
+
+.nav_container > ul > li {
+    margin: 0 15px;
+    width:  50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .25s ease-out;
+    opacity: .8;
+}
+
+
+.nav_container > ul > li:hover {
+    font-size: 1.3em;
+    opacity: 1;
+}

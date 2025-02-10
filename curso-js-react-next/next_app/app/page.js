@@ -11,9 +11,6 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Pagina Principal</title>
-      </Head>
       <div className={styles.page}>
         <h1>hello world Next.js</h1>
       </div>
